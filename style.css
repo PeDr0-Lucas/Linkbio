@@ -158,13 +158,23 @@ footer{
     justify-content: center;
 }
 
-@media (min-width: 700px){
+/*@media (min-width: 700px){
     :root{
         --bg-url: url(./assets/bg-desktop.jpg);
     }
 
     .ligth{
         --bg-url: url(./assets/bg-desktop-ligth.jpg);   
+    }
+}*/
+
+@media(min-width: 700px){
+    :root{
+        --bg-url: url(/assets/bg-desktop.jpg)
+    }
+
+    .ligth{
+        --bg-url: url(/assets/bg-desktop-ligth.jpg)
     }
 }
 
